@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simple registration form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+    <script src="jquery_min.js"></script>
+
+</head>
+
+<body class="bg-light">
+
+
+
+  <div class="container" style="padding-top: 90px;">
+
+    <h1>Hello!</h1>
+    <p>Find the correct link! </p>
+
+
+  <a href="find_link_text_redirect1.html"   class="close-window">305763</a>
+<a href="find_link_text_redirect2.html" class="close-window">643051</a>
+<a href="find_link_text_redirect3.html" class="close-window">003388</a>
+<a href="find_link_text_redirect4.html" class="close-window">756480</a>
+<a href="find_link_text_redirect5.html" class="close-window">704777</a>
+<a href="find_link_text_redirect6.html" class="close-window">376026</a>
+<a href="find_link_text_redirect7.html" class="close-window">641158</a>
+<a href="find_link_text_redirect8.html" class="close-window">362417</a>
+<a href="find_link_text_redirect9.html" class="close-window">641158</a>
+<a href="find_link_text_redirect10.html" class="close-window">968992</a>
+<a href="find_link_text_redirect11.html" class="close-window">
+210864</a>
+<a href="find_link_text_redirect12.html" class="close-window">586451</a>
+  <a href="find_link_text_redirect13.html">224592</a>
+<a href="find_link_text_redirect14.html" class="close-window">
+385461</a>
+<a href="find_link_text_redirect15.html" class="close-window">809857</a>
+<a href="find_link_text_redirect16.html" class="close-window">132869</a>
+<a href="find_link_text_redirect17.html" class="close-window">190051</a>
+<a href="find_link_text_redirect18.html" class="close-window">986293</a>
+<a href="find_link_text_redirect19.html" class="close-window">623566</a>
+<a href="find_link_text_redirect20.html" class="close-window">356349</a>
+<a href="find_link_text_redirect21.html" class="close-window">
+385461</a>
+<a href="find_link_text_redirect22.html" class="close-window">441456</a>
+
+</body>
+</html>
+
+<script type="text/javascript">
+let closing_links = document.getElementsByClassName("close-window");
+
+for (var i = 0 ; i < closing_links.length ; ++i) {
+
+        closing_links[i].addEventListener("click", function() {
+            	window.open(document.URL, '_self', '');
+	window.close();
+        });
+
+}
+</script>
+

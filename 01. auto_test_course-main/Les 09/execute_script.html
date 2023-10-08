@@ -1,0 +1,78 @@
+<html>
+<head>
+  <title>Scroll it</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+          integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+          crossorigin="anonymous"></script>
+    <script src="jquery_min.js"></script>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body class="bg-white">
+  <h3 class="timer">
+      <span class="nowrap" id="timeLeft">Time left:</span>
+      <span class="nowrap" id="countdown">
+  </span>
+
+  </h3>
+
+  <div class="container" style="padding-top: 90px;">
+
+    <form action="" method="get" onsubmit="checkTask(input_value, 2206)">
+      <div class="form-group">
+          <label>
+                <span class="nowrap"> What is ln(abs(12*sin(x))), where x =  </span>
+                <span class="nowrap" id="input_value">  10 </span><span>?</span>
+          </label>
+          <input id="answer" class="form-control" type="text" required> <br>
+      </div>
+      <div class="form-check form-check-custom">
+          <input class="form-check-input" type="checkbox" id="robotCheckbox" required>
+          <label class="form-check-label" for="robotCheckbox">I'm the robot</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="ruler" id="peopleRule" value="people" checked>
+        <label for="peopleRule">People rule</label>
+      </div>
+      <div class="form-check form-radio-custom">
+          <input class="form-check-input" type="radio" name="ruler" id="robotsRule" value="robots">
+          <label class="form-check-label" for="robotsRule">Robots rule</label>
+      </div>
+      <button type="submit" class="btn btn-primary" style="margin-bottom: 1000px;">Submit</button>
+    </form>
+
+  </div>
+
+  <footer class="bd-footer bg-light text-muted"">
+      <div class="container">
+        <ul class="bd-footer-links">
+          <li><a href="http://suninjuly.github.io/">Main page</a></li>
+          <li><a href="http://suninjuly.github.io/math.html">Math quiz</a></li>
+          <li><a href="http://suninjuly.github.io/treasure.html">Treasure quiz</a></li>
+          <li><a href="https://stepik.org/course/575/syllabus">Go to the course</a></li>
+        </ul>
+        <p>What is Selenium?</p>
+        <p>Selenium automates browsers. That's it! What you do with that power is entirely up to you. Primarily, it is for automating web applications for testing purposes, but is certainly not limited to just that. Boring web-based administration tasks can (and should!) be automated as well.</p>
+        <p>What is Python?</p>
+        <p>Python is an interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales. In July 2018, Van Rossum stepped down as the leader in the language community after 30 years</p>
+      </div>
+  </footer>
+
+  <script>
+    let footerHeight = Math.ceil((1-350/window.innerHeight)*100);
+    document.querySelector('footer').style.height=`${footerHeight}vh`;
+    var input_value = Math.floor(Math.random() * 1000) + 1;
+    var isFinished = false;
+    document.getElementById("input_value").innerHTML = input_value;
+    countDown(3);
+  </script>
+</body>
+</html>
