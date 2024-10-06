@@ -1,0 +1,106 @@
+{
+	"Auth":{
+	"Token_monitor": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ0ZXN0IiwiYXVkIjoicHJvY2Vzcy1tb25pdG9yLmJydXNuaWthLnJ1Iiwic3ViIjoicXdpcHFAbWFpbC5ydSIsImlhdCI6MTcxMDg3NTYwMywiZXhwIjoxNzQyNDMzMjAzfQ.BLFSbLRF7sCC68T9493KFezGtFmLaJVbAec8YqcNNRQ",
+	"Token_proc": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkLmxvZ3Zpbm92LW91dCIsImF1ZCI6ImVycC1jb3JlLmJydXNuaWthLnJ1L3Byb2Nlc3NlcyIsImV4cCI6MTgxNzYyNDM0NSwic3ViIjoicXdpcHFAbWFpbC5ydSJ9.p665xY-RhxICrvMu6fGZ9qOSMxYxnajssG2xuXyO6ms",
+	"Cookie": "AUTH_ACS=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJqOHpUZFV1NnFqNkRMT2NjV0NQeWcyNnN3cmluVVlLT2dHQzhOX3pGXzlNIn0.eyJleHAiOjE3MTA3NDI0MDEsImlhdCI6MTcxMDc0MjEwMSwiYXV0aF90aW1lIjoxNzEwNzQyMTAwLCJqdGkiOiI1ODFhZjkxMy05ZTQwLTQzMTYtYWMxZS00NzFmZDQwYzFhZDciLCJpc3MiOiJodHRwczovL2xvZ2luLmJydXNuaWthLnJ1L3JlYWxtcy9CcnVzbmlrYSIsImF1ZCI6WyJlcnAtcHJvY2Vzc2VzIiwiZXJwLWluZGljYXRvcnMiLCJlcnAtcGFyYW1ldGVycyIsImFjY291bnQiXSwic3ViIjoiMzE5ZmQ1YWYtMjlkNS00OTI2LTk3NjgtY2JhNDY0YzZiY2ViIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoic2NoZWR1bGVyIiwic2Vzc2lvbl9zdGF0ZSI6IjQ5NDg1ZjQ0LWMxNjMtNDhmMi05ZDJmLThmMWU3OGVmYjA2NiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9zY2hlZHVsZXIuYnJ1c25pa2EucnUiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtYnJ1c25pa2EiLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiZXJwLXByb2Nlc3NlcyI6eyJyb2xlcyI6WyJlcnAtcHJvY2Vzc2VzIl19LCJlcnAtaW5kaWNhdG9ycyI6eyJyb2xlcyI6WyJlcnAtaW5kaWNhdG9ycyJdfSwiZXJwLXBhcmFtZXRlcnMiOnsicm9sZXMiOlsiZXJwLXBhcmFtZXRlcnMiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI0OTQ4NWY0NC1jMTYzLTQ4ZjItOWQyZi04ZjFlNzhlZmIwNjYiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6InJlZGxhYi5sb2d2aW5vdiIsInByZWZlcnJlZF91c2VybmFtZSI6InJlZGxhYi5sb2d2aW5vdiIsImdpdmVuX25hbWUiOiJyZWRsYWIubG9ndmlub3YiLCJlbWFpbCI6InF3aXBxQG1haWwucnUifQ.fyJmGFma6PtdmzuHEJy8rHV4yzvQTyiJKq8X8JZFizNqRTH7svucDamq3VfcEIooB3lfH_RExAHD2WbAd0XkNcnewPfDXuyIAM9SbdJD9toytpqoiExaokJHa8rSXGaR8VY92n-CeKFk2uTS9S7xqu4MwSrH6-lexvoIfkdls3lcPgiSb8NLTnGNPn7e3_gmvMwUqsrxv-7klr2VAQmgSEVeBnbVk20SBwVUgh432SUIVyJJWKgKhan-Uva-Ll3BQulQUAXsRbZEtyZHgcqtIrZ5GVjJAPLjNr2bAT8JSSRfLCcc0ulYy9hvVRzeWyYPmLjalWzPu1oACVteQlninw; AUTH_RFR=eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3NDQxYjY2MS1kODdhLTRlYTctYWEyZS0yMmM1YjJkNjE2ZDEifQ.eyJleHAiOjE3MTI0NzAxMDEsImlhdCI6MTcxMDc0MjEwMSwianRpIjoiOGYwNTVkNDctMTY2Zi00NDliLTkzNmQtOGUzOWRmYTJlOTc2IiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5icnVzbmlrYS5ydS9yZWFsbXMvQnJ1c25pa2EiLCJhdWQiOiJodHRwczovL2xvZ2luLmJydXNuaWthLnJ1L3JlYWxtcy9CcnVzbmlrYSIsInN1YiI6IjMxOWZkNWFmLTI5ZDUtNDkyNi05NzY4LWNiYTQ2NGM2YmNlYiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJzY2hlZHVsZXIiLCJzZXNzaW9uX3N0YXRlIjoiNDk0ODVmNDQtYzE2My00OGYyLTlkMmYtOGYxZTc4ZWZiMDY2Iiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6IjQ5NDg1ZjQ0LWMxNjMtNDhmMi05ZDJmLThmMWU3OGVmYjA2NiJ9.CZgAKJ5sPuI61FN6yPAqComqS7wLZDDareQ_j-bVmJY; AUTH_ID=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJqOHpUZFV1NnFqNkRMT2NjV0NQeWcyNnN3cmluVVlLT2dHQzhOX3pGXzlNIn0.eyJleHAiOjE3MTA3NDI0MDEsImlhdCI6MTcxMDc0MjEwMSwiYXV0aF90aW1lIjoxNzEwNzQyMTAwLCJqdGkiOiI4ODMwZjdlNC0xMGRkLTRiZDYtOWNmMy03MDU3NzRlZDdjNzUiLCJpc3MiOiJodHRwczovL2xvZ2luLmJydXNuaWthLnJ1L3JlYWxtcy9CcnVzbmlrYSIsImF1ZCI6InNjaGVkdWxlciIsInN1YiI6IjMxOWZkNWFmLTI5ZDUtNDkyNi05NzY4LWNiYTQ2NGM2YmNlYiIsInR5cCI6IklEIiwiYXpwIjoic2NoZWR1bGVyIiwic2Vzc2lvbl9zdGF0ZSI6IjQ5NDg1ZjQ0LWMxNjMtNDhmMi05ZDJmLThmMWU3OGVmYjA2NiIsImF0X2hhc2giOiJ3Q2xidmRuUWpWZVFqaHFnc3BCRTlRIiwiYWNyIjoiMSIsInNpZCI6IjQ5NDg1ZjQ0LWMxNjMtNDhmMi05ZDJmLThmMWU3OGVmYjA2NiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoicmVkbGFiLmxvZ3Zpbm92IiwicHJlZmVycmVkX3VzZXJuYW1lIjoicmVkbGFiLmxvZ3Zpbm92IiwiZ2l2ZW5fbmFtZSI6InJlZGxhYi5sb2d2aW5vdiIsImVtYWlsIjoicXdpcHFAbWFpbC5ydSJ9.Vpe1rbtywcPKiABVHPxJtVnm7w7lEG0N79IqeZE_mZGG6_dtkFcD83RtorWiabqpelExecvs4bld9uHhOw2YZlnNoZ_QFgdIR9Hi8R3b8ZB6fX3fPAEOm7RrX9xF4X7TQsXOoVzZSngKkvkNBAf6hAnt18g98PIbbDvBfL-eONKKugm2XEioeeM82awuQxuZD3jKqyN8il4dRgEmhCKoF25JN9VjnmaS7BSHV_s7dxG_CclFJzcZ6bifPrOU4Q0EktF8llhZOWMmcgE1RC4OaXdggMUHSzWlNPza6eD5NB3XFM7l5axtXraNUdexAMEktCSmCoL8Vl_0am8dQXhw3w; AUTH_INT=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiZW1haWwiOiJxd2lwcUBtYWlsLnJ1In0sImlhdCI6MTcxMDc0MjEwMTA4MiwiZXhwIjoxNzEwNzQyNzAxMDgyLCJhdWQiOiJzY2hlZHVsZXIiLCJpc3MiOiJzY2hlZHVsZXIifQ.vUviEoP15hZEz8gjjftq0vSoAn1xQJCqT-s2CfVXLVU"
+	},
+	"link":[
+		{
+			"name": "Получение прав",
+			"proxy": "false",
+			"description": "Обновление прав",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/auth/refresh"
+		},
+		{
+			"name": "Токен версионирования",
+			"proxy": "false",
+			"description": "Получаем токен версионирования",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/get-versioning-token"
+		},
+		{
+			"name": "Versions",
+			"proxy": "false",
+			"description": "Получаем versions",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/versions"
+		},
+		{
+			"name": "Получаем графики - isHidden=false",
+			"proxy": "false",
+			"description": "Получаем графики - isHidden=false",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/dictionaries/models?isHidden=false"
+		},
+		{
+			"name": "Получаем графики - isHidden=true",
+			"proxy": "false",
+			"description": "Получаем графики - isHidden=true",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/dictionaries/models?isHidden=true"
+		},
+		{
+			"name": "Получаем классы ОС и площадок",
+			"proxy": "false",
+			"description": "Получаем классы ОС и площадок",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/dictionaries/grades"
+		},		
+		{
+			"name": "Получаем состояние ОС",
+			"proxy": "false",
+			"description": "Получаем состояние ОС",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-data/stages/construction_object"
+		},
+		{
+			"name": "Получаем состояние площадок",
+			"proxy": "false",
+			"description": "Получаем состояние площадок",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-data/stages/site"
+		},
+		{
+			"name": "Портфель - Схема",
+			"proxy": "false",
+			"description": "Загрузка схемы портфеля",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-data/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/schema"
+		},
+		{
+			"name": "Портфель - Объекты",
+			"proxy": "false",
+			"description": "Загрузка таблицы Объектов",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-data/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/construction-objects?canceled=false&includeEmpty=false&sortBy=ALPHABET&showConstructionObjects=true&showInfrastructureObjects=true&showSocialInfrastructureObjects=true"
+		},
+		{
+			"name": "Портфель - Summary",
+			"proxy": "false",
+			"description": "Загрузка таблицы Summary",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-data/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/summary?canceled=false&includeEmpty=false&sortBy=ALPHABET&showConstructionObjects=true&showInfrastructureObjects=true&showSocialInfrastructureObjects=true"
+		},
+		{
+			"name": "ТЗ №3. Портфель - Объекты - ЮКВ16 - смена даты НС на 2028 I",
+			"description": "Смена у объекта ЮКВ17 сезона с первого на второй",
+			"proxy": "false",
+			"Auth": "cookie",
+			"metod": {"put":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-parameters/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/construction-objects",
+			"data": {"constructionObjectsId":["628c3ce0-6c53-4264-8cf0-d6dc9d5c6b29"],"constructionStartDate":"01.03.2028"}
+		}
+	]
+}

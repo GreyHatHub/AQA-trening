@@ -1,0 +1,7 @@
+pip freeze > requirements.txt
+sudo apt install allure
+
+
+python -m pytest -v --tb=no 
+pytest -vs  --alluredir report
+allure serve report

@@ -1,0 +1,794 @@
+{
+	"Auth":{
+	"Token_monitor": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ0ZXN0IiwiYXVkIjoicHJvY2Vzcy1tb25pdG9yLmJydXNuaWthLnJ1Iiwic3ViIjoicXdpcHFAbWFpbC5ydSIsImlhdCI6MTcxMDg3NTYwMywiZXhwIjoxNzQyNDMzMjAzfQ.BLFSbLRF7sCC68T9493KFezGtFmLaJVbAec8YqcNNRQ",
+	"Token_proc": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkLmxvZ3Zpbm92LW91dCIsImF1ZCI6ImVycC1jb3JlLmJydXNuaWthLnJ1L3Byb2Nlc3NlcyIsImV4cCI6MTgxNzYyNDM0NSwic3ViIjoicXdpcHFAbWFpbC5ydSJ9.p665xY-RhxICrvMu6fGZ9qOSMxYxnajssG2xuXyO6ms",
+	"Cookie": "AUTH_ACS=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJqOHpUZFV1NnFqNkRMT2NjV0NQeWcyNnN3cmluVVlLT2dHQzhOX3pGXzlNIn0.eyJleHAiOjE3MTA3NDI0MDEsImlhdCI6MTcxMDc0MjEwMSwiYXV0aF90aW1lIjoxNzEwNzQyMTAwLCJqdGkiOiI1ODFhZjkxMy05ZTQwLTQzMTYtYWMxZS00NzFmZDQwYzFhZDciLCJpc3MiOiJodHRwczovL2xvZ2luLmJydXNuaWthLnJ1L3JlYWxtcy9CcnVzbmlrYSIsImF1ZCI6WyJlcnAtcHJvY2Vzc2VzIiwiZXJwLWluZGljYXRvcnMiLCJlcnAtcGFyYW1ldGVycyIsImFjY291bnQiXSwic3ViIjoiMzE5ZmQ1YWYtMjlkNS00OTI2LTk3NjgtY2JhNDY0YzZiY2ViIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoic2NoZWR1bGVyIiwic2Vzc2lvbl9zdGF0ZSI6IjQ5NDg1ZjQ0LWMxNjMtNDhmMi05ZDJmLThmMWU3OGVmYjA2NiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9zY2hlZHVsZXIuYnJ1c25pa2EucnUiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtYnJ1c25pa2EiLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiZXJwLXByb2Nlc3NlcyI6eyJyb2xlcyI6WyJlcnAtcHJvY2Vzc2VzIl19LCJlcnAtaW5kaWNhdG9ycyI6eyJyb2xlcyI6WyJlcnAtaW5kaWNhdG9ycyJdfSwiZXJwLXBhcmFtZXRlcnMiOnsicm9sZXMiOlsiZXJwLXBhcmFtZXRlcnMiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI0OTQ4NWY0NC1jMTYzLTQ4ZjItOWQyZi04ZjFlNzhlZmIwNjYiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6InJlZGxhYi5sb2d2aW5vdiIsInByZWZlcnJlZF91c2VybmFtZSI6InJlZGxhYi5sb2d2aW5vdiIsImdpdmVuX25hbWUiOiJyZWRsYWIubG9ndmlub3YiLCJlbWFpbCI6InF3aXBxQG1haWwucnUifQ.fyJmGFma6PtdmzuHEJy8rHV4yzvQTyiJKq8X8JZFizNqRTH7svucDamq3VfcEIooB3lfH_RExAHD2WbAd0XkNcnewPfDXuyIAM9SbdJD9toytpqoiExaokJHa8rSXGaR8VY92n-CeKFk2uTS9S7xqu4MwSrH6-lexvoIfkdls3lcPgiSb8NLTnGNPn7e3_gmvMwUqsrxv-7klr2VAQmgSEVeBnbVk20SBwVUgh432SUIVyJJWKgKhan-Uva-Ll3BQulQUAXsRbZEtyZHgcqtIrZ5GVjJAPLjNr2bAT8JSSRfLCcc0ulYy9hvVRzeWyYPmLjalWzPu1oACVteQlninw; AUTH_RFR=eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3NDQxYjY2MS1kODdhLTRlYTctYWEyZS0yMmM1YjJkNjE2ZDEifQ.eyJleHAiOjE3MTI0NzAxMDEsImlhdCI6MTcxMDc0MjEwMSwianRpIjoiOGYwNTVkNDctMTY2Zi00NDliLTkzNmQtOGUzOWRmYTJlOTc2IiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5icnVzbmlrYS5ydS9yZWFsbXMvQnJ1c25pa2EiLCJhdWQiOiJodHRwczovL2xvZ2luLmJydXNuaWthLnJ1L3JlYWxtcy9CcnVzbmlrYSIsInN1YiI6IjMxOWZkNWFmLTI5ZDUtNDkyNi05NzY4LWNiYTQ2NGM2YmNlYiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJzY2hlZHVsZXIiLCJzZXNzaW9uX3N0YXRlIjoiNDk0ODVmNDQtYzE2My00OGYyLTlkMmYtOGYxZTc4ZWZiMDY2Iiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6IjQ5NDg1ZjQ0LWMxNjMtNDhmMi05ZDJmLThmMWU3OGVmYjA2NiJ9.CZgAKJ5sPuI61FN6yPAqComqS7wLZDDareQ_j-bVmJY; AUTH_ID=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJqOHpUZFV1NnFqNkRMT2NjV0NQeWcyNnN3cmluVVlLT2dHQzhOX3pGXzlNIn0.eyJleHAiOjE3MTA3NDI0MDEsImlhdCI6MTcxMDc0MjEwMSwiYXV0aF90aW1lIjoxNzEwNzQyMTAwLCJqdGkiOiI4ODMwZjdlNC0xMGRkLTRiZDYtOWNmMy03MDU3NzRlZDdjNzUiLCJpc3MiOiJodHRwczovL2xvZ2luLmJydXNuaWthLnJ1L3JlYWxtcy9CcnVzbmlrYSIsImF1ZCI6InNjaGVkdWxlciIsInN1YiI6IjMxOWZkNWFmLTI5ZDUtNDkyNi05NzY4LWNiYTQ2NGM2YmNlYiIsInR5cCI6IklEIiwiYXpwIjoic2NoZWR1bGVyIiwic2Vzc2lvbl9zdGF0ZSI6IjQ5NDg1ZjQ0LWMxNjMtNDhmMi05ZDJmLThmMWU3OGVmYjA2NiIsImF0X2hhc2giOiJ3Q2xidmRuUWpWZVFqaHFnc3BCRTlRIiwiYWNyIjoiMSIsInNpZCI6IjQ5NDg1ZjQ0LWMxNjMtNDhmMi05ZDJmLThmMWU3OGVmYjA2NiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoicmVkbGFiLmxvZ3Zpbm92IiwicHJlZmVycmVkX3VzZXJuYW1lIjoicmVkbGFiLmxvZ3Zpbm92IiwiZ2l2ZW5fbmFtZSI6InJlZGxhYi5sb2d2aW5vdiIsImVtYWlsIjoicXdpcHFAbWFpbC5ydSJ9.Vpe1rbtywcPKiABVHPxJtVnm7w7lEG0N79IqeZE_mZGG6_dtkFcD83RtorWiabqpelExecvs4bld9uHhOw2YZlnNoZ_QFgdIR9Hi8R3b8ZB6fX3fPAEOm7RrX9xF4X7TQsXOoVzZSngKkvkNBAf6hAnt18g98PIbbDvBfL-eONKKugm2XEioeeM82awuQxuZD3jKqyN8il4dRgEmhCKoF25JN9VjnmaS7BSHV_s7dxG_CclFJzcZ6bifPrOU4Q0EktF8llhZOWMmcgE1RC4OaXdggMUHSzWlNPza6eD5NB3XFM7l5axtXraNUdexAMEktCSmCoL8Vl_0am8dQXhw3w; AUTH_INT=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiZW1haWwiOiJxd2lwcUBtYWlsLnJ1In0sImlhdCI6MTcxMDc0MjEwMTA4MiwiZXhwIjoxNzEwNzQyNzAxMDgyLCJhdWQiOiJzY2hlZHVsZXIiLCJpc3MiOiJzY2hlZHVsZXIifQ.vUviEoP15hZEz8gjjftq0vSoAn1xQJCqT-s2CfVXLVU"
+	},
+	"link":[
+		{
+			"name": "Портфель - Схема",
+			"proxy": "false",
+			"description": "Загрузка схемы портфеля",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-data/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/schema"
+		},
+		{
+			"name": "Портфель - Периметры",
+			"proxy": "false",
+			"description": "Загрузка таблицы Периметров",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-data/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/contours"
+		},
+		{
+			"name": "Портфель - Проекты",
+			"proxy": "false",
+			"description": "Загрузка таблицы Проектов",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-data/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/projects"
+		},
+		{
+			"name": "Портфель - Площадки",
+			"proxy": "false",
+			"description": "Загрузка таблицы Площадки",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-data/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/sites"
+		},
+		{
+			"name": "Портфель - Объекты",
+			"proxy": "false",
+			"description": "Загрузка таблицы Объектов",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-data/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/construction-objects?canceled=false&includeEmpty=false&sortBy=ALPHABET&showConstructionObjects=true&showInfrastructureObjects=true&showSocialInfrastructureObjects=true"
+		},
+		{
+			"name": "Портфель - Summary",
+			"proxy": "false",
+			"description": "Загрузка таблицы Summary",
+			"Auth": "cookie",
+			"metod": {"get":200},
+			"url": "https://scheduler.brusnika.ru/backend/portfolio-data/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/summary?canceled=false&includeEmpty=false&sortBy=ALPHABET&showConstructionObjects=true&showInfrastructureObjects=true&showSocialInfrastructureObjects=true"
+		},
+		{
+			"name": "Паспорт - main.js",
+			"proxy": "false",
+			"description": "Загрузка скрипта обработки событий",
+			"Auth": "Token_monitor",
+			"metod": {"get":200},
+			"url": "https://process-monitor.brusnika.ru/main.2164887ea9e91fd23275.js"
+		},
+		{
+			"name": "Паспорт - Площадки (раб.версии)",
+			"proxy": "false",
+			"description": "Загрузка списка площадок в рабочей версии",
+			"Auth": "Token_monitor",
+			"metod": {"get":200},
+			"url": "https://process-monitor.brusnika.ru/backend/versions/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/sites"
+		},
+		{
+			"name": "Паспорт - ЦУ (раб.версии)",
+			"proxy": "false",
+			"description": "Загрузка списка целевых участков в рабочей версии",
+			"Auth": "Token_monitor",
+			"metod": {"get":200},
+			"url": "https://process-monitor.brusnika.ru/backend/versions/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/parcels"
+		},
+		{
+			"name": "Паспорт - ОС (раб.версии)",
+			"proxy": "false",
+			"description": "Загрузка списка объектов строительства в рабочей версии",
+			"Auth": "Token_monitor",
+			"metod": {"get":200},
+			"url": "https://process-monitor.brusnika.ru/backend/versions/1ce7fe21-956f-4627-b1aa-cbfc2d6358ba/construction-objects"
+		},
+		{
+			"name": "Паспорт - Ресурсы (бэк)",
+			"proxy": "false",
+			"description": "Получение списка ресурсов с БЭКа планировщика",
+			"Auth": "Token_monitor",
+			"metod": {"get":200},
+			"url": "https://process-monitor.brusnika.ru/backend/resources"
+		},	
+		{
+			"name": "Паспорт - Группы (бэк)",
+			"proxy": "false",
+			"description": "Получение списка групп объектов с БЭКа планировщика",
+			"Auth": "Token_monitor",
+			"metod": {"get":200},
+			"url": "https://process-monitor.brusnika.ru/backend/groups"
+		},	
+		{
+			"name": "Паспорт - Версии (бэк)",
+			"proxy": "false",
+			"description": "Получение списка версий с БЭКа планировщика",
+			"Auth": "Token_monitor",
+			"metod": {"get":200},
+			"url": "https://process-monitor.brusnika.ru/backend/versions"
+		},
+		{
+			"name": "Паспорт -> Портфель - Таблица, группы по объектам(по умолчанию)",
+			"proxy": "false",
+			"description": "Загрузка списка объектов строительства в таблицу портфель в рабочей версии в разделе Паспорт",
+			"Auth": "Token_monitor",
+			"metod": {"post":201},
+			"url": "https://process-monitor.brusnika.ru/backend/statistics-set/CONSTRUCTION_OBJECT/get-all-groups",
+			"data": {"versions":{"targetId":"f3a09972-2b41-47ae-82d7-4cc01f86e3b1","tipId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"projects":null,"constructionObjects":null,"constructionObjectType":null,"projections":null,"contours":null,"sites":null,"parcels":null,"periodFilter":{"since":"2021-01-01","until":"2026-01-01"},"canceled":[false],"group":["d75d8b11-8257-46f1-a18b-9e6d2cd12465","8fc16542-0a80-4814-bcc3-f6d00eb56433","cebb02d5-8ada-4cfc-a72b-db261180a3b7","0a277db5-8a0c-4cff-9f56-07ac4f4ffb5d","b6e88f23-4689-4512-8ef8-0f7bfb12507a"],"target":false,"tip":true,"statuses":["NEW","IN_PROGRESS","COMPLETE"],"resources":null}
+		},
+		{
+			"name": "Паспорт -> Портфель - Таблица, группы по объектам(без фильров)",
+			"proxy": "false",
+			"description": "Загрузка списка объектов строительства в таблицу портфель в рабочей версии в разделе Паспорт со сброшенными фильтрами",
+			"Auth": "Token_monitor",
+			"metod": {"post":201},
+			"delta": 52,
+			"url": "https://process-monitor.brusnika.ru/backend/statistics-set/CONSTRUCTION_OBJECT/get-all-groups",
+			"data": {"versions":{"targetId":"f3a09972-2b41-47ae-82d7-4cc01f86e3b1","tipId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"projects":null,"constructionObjects":null,"constructionObjectType":null,"projections":null,"contours":null,"sites":null,"parcels":null,"periodFilter":{"since":"2021-01-01","until":"2026-01-01"},"canceled":[false],"group":[],"target":false,"tip":true,"statuses":["NEW","IN_PROGRESS","COMPLETE"],"resources":null}
+		},
+		{
+			"name": "Паспорт -> Портфель - Таблица, группы по объектам(без фильров + пропущенные)",
+			"proxy": "false",
+			"description": "Загрузка списка объектов строительства в таблицу портфель в рабочей версии в разделе Паспорт со сброшенными фильтрами и отображением пропущенных",
+			"Auth": "Token_monitor",
+			"metod": {"post":201},
+			"delta": 114,
+			"url": "https://process-monitor.brusnika.ru/backend/statistics-set/CONSTRUCTION_OBJECT/get-all-groups",
+			"data": {"versions":{"targetId":"f3a09972-2b41-47ae-82d7-4cc01f86e3b1","tipId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"projects":null,"constructionObjects":null,"constructionObjectType":null,"projections":null,"contours":null,"sites":null,"parcels":null,"periodFilter":{"since":"2021-01-01","until":"2026-01-01"},"canceled":[false],"group":[],"target":false,"tip":true,"statuses":["NEW","IN_PROGRESS","COMPLETE","SKIPPED"],"resources":null}
+		},
+		{
+			"name": "Паспорт -> Портфель - Таблица группы по ЦУ(без фильров)",
+			"proxy": "false",
+			"description": "Загрузка списка целевых участков в таблицу портфель в рабочей версии в разделе Паспорт со сброшенными фильтрами",
+			"Auth": "Token_monitor",
+			"metod": {"post":201},
+			"url": "https://process-monitor.brusnika.ru/backend/statistics-set/PARCEL/get-all-groups",
+			"data": {"versions":{"targetId":"f3a09972-2b41-47ae-82d7-4cc01f86e3b1","tipId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"projects":null,"constructionObjects":null,"constructionObjectType":null,"projections":null,"contours":null,"sites":null,"parcels":null,"periodFilter":{"since":"2021-01-01","until":"2026-01-01"},"canceled":[false],"group":[],"target":false,"tip":true,"statuses":["NEW","IN_PROGRESS","COMPLETE"],"resources":null}
+		},
+		{
+			"name": "Паспорт -> Портфель - Таблица группы по ЦУ(без фильров + пропущенные)",
+			"proxy": "false",
+			"description": "Загрузка списка целевых участков в таблицу портфель в рабочей версии в разделе Паспорт со сброшенными фильтрами и отображением пропущенных",
+			"Auth": "Token_monitor",
+			"metod": {"post":201},
+			"delta": 95,
+			"url": "https://process-monitor.brusnika.ru/backend/statistics-set/PARCEL/get-all-groups",
+			"data": {"versions":{"targetId":"f3a09972-2b41-47ae-82d7-4cc01f86e3b1","tipId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"projects":null,"constructionObjects":null,"constructionObjectType":null,"projections":null,"contours":null,"sites":null,"parcels":null,"periodFilter":{"since":"2021-01-01","until":"2026-01-01"},"canceled":[false],"group":[],"target":false,"tip":true,"statuses":["NEW","IN_PROGRESS","COMPLETE","SKIPPED"],"resources":null}
+		},		
+		{
+			"name": "Паспорт -> Портфель - Таблица группы по площадкам(без фильров)",
+			"proxy": "false",
+			"description": "Загрузка списка площадок в таблицу портфель в рабочей версии в разделе Паспорт со сброшенными фильтрами",
+			"Auth": "Token_monitor",
+			"metod": {"post":201},
+			"url": "https://process-monitor.brusnika.ru/backend/statistics-set/SITE/get-all-groups",
+			"data": {"versions":{"targetId":"f3a09972-2b41-47ae-82d7-4cc01f86e3b1","tipId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"projects":null,"constructionObjects":null,"constructionObjectType":null,"projections":null,"contours":null,"sites":null,"parcels":null,"periodFilter":{"since":"2021-01-01","until":"2026-01-01"},"canceled":[false],"group":[],"target":false,"tip":true,"statuses":["NEW","IN_PROGRESS","COMPLETE"],"resources":null}
+		},
+		{
+			"name": "Паспорт -> Портфель - Таблица группы по площадкам(без фильров + пропущенные)",
+			"proxy": "false",
+			"description": "Загрузка списка площадок в таблицу портфель в рабочей версии в разделе Паспорт со сброшенными фильтрами и отображением пропущенных площадок",
+			"Auth": "Token_monitor",
+			"metod": {"post":201},
+			"delta": 16,
+			"url": "https://process-monitor.brusnika.ru/backend/statistics-set/SITE/get-all-groups",
+			"data": {"versions":{"targetId":"f3a09972-2b41-47ae-82d7-4cc01f86e3b1","tipId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"projects":null,"constructionObjects":null,"constructionObjectType":null,"projections":null,"contours":null,"sites":null,"parcels":null,"periodFilter":{"since":"2021-01-01","until":"2026-01-01"},"canceled":[false],"group":[],"target":false,"tip":true,"statuses":["NEW","IN_PROGRESS","COMPLETE","SKIPPED"],"resources":null}
+		},						
+		{
+			"name": "Паспорт -> Портфель - Таблица всех процессов по объектам",
+			"proxy": "false",
+			"description": "Загрузка стаблицы всех процессов по объектам в Паспорте в разделе портфель",
+			"Auth": "Token_monitor",
+			"metod": {"post":201},
+			"delta": 21,
+			"url": "https://process-monitor.brusnika.ru/backend/statistics-set/CONSTRUCTION_OBJECT/get-all-process",
+			"data": {"versions":{"targetId":"f3a09972-2b41-47ae-82d7-4cc01f86e3b1","tipId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"projects":null,"constructionObjects":null,"constructionObjectType":null,"projections":null,"contours":null,"sites":null,"parcels":null,"periodFilter":{"since":"2021-01-01","until":"2026-01-01"},"canceled":[false],"group":["d75d8b11-8257-46f1-a18b-9e6d2cd12465","8fc16542-0a80-4814-bcc3-f6d00eb56433","cebb02d5-8ada-4cfc-a72b-db261180a3b7","0a277db5-8a0c-4cff-9f56-07ac4f4ffb5d","b6e88f23-4689-4512-8ef8-0f7bfb12507a"],"target":false,"tip":true,"statuses":["NEW","IN_PROGRESS","COMPLETE"],"resources":null}
+		},
+		{
+			"name": "Паспорт -> Паспорт площадки - Главная - БДР - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта площадки в разделе БДР",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"ab3b7bd3-961b-4ac6-8be8-904ea16e7b47","activeProjection":{"id":"47ecbf37-0755-449f-b109-ea1ab19c3747","type":"site"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","siteId":"47ecbf37-0755-449f-b109-ea1ab19c3747"},"display":["OBJECT_BDR"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт площадки - Главная - ЕТП и параметры площадки - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта площадки в таблицах ЕТП и параметры площадки",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"ab3b7bd3-961b-4ac6-8be8-904ea16e7b47","activeProjection":{"id":"47ecbf37-0755-449f-b109-ea1ab19c3747","type":"site"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","siteId":"47ecbf37-0755-449f-b109-ea1ab19c3747"},"display":["PARAMS_ETP","PARAMS_AREA"]}
+		},		
+		{
+			"name": "Паспорт -> Паспорт площадки - Главная - График реализации",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта площадки в таблицы График реализации",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"periodScale":"HALF_YEAR","secondaryVersionId":"ab3b7bd3-961b-4ac6-8be8-904ea16e7b47","activeProjection":{"id":"47ecbf37-0755-449f-b109-ea1ab19c3747","type":"site"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","siteId":"47ecbf37-0755-449f-b109-ea1ab19c3747"},"display":["SITE_PRODUCTION_SCHEDULE_YEAR"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт площадки - ЕТП и БДР - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта площадки в разделе ЕТП и БДР",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"type":"CONSTRUCTION_OBJECT","schemaFilters":{"constructionObjects":[],"periods":[]},"secondaryVersionId":"ab3b7bd3-961b-4ac6-8be8-904ea16e7b47","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","siteId":"47ecbf37-0755-449f-b109-ea1ab19c3747"},"display":["PARAMS_AREA_OBJECT","PARAMS_BDR_OBJECT"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт площадки - ЕТП и БДР - Схема",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта площадки в разделе ЕТП и БДР",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"type":"CONSTRUCTION_OBJECT","schemaFilters":{"constructionObjects":[],"periods":[]},"secondaryVersionId":"ab3b7bd3-961b-4ac6-8be8-904ea16e7b47","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","siteId":"47ecbf37-0755-449f-b109-ea1ab19c3747"},"display":["PARAMS_AREA_OBJECT","PARAMS_BDR_OBJECT"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт площадки - БДДС - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта площадки в разделе БДДС",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"schemaFilters":{"constructionObjects":[],"periods":[]},"secondaryVersionId":"ab3b7bd3-961b-4ac6-8be8-904ea16e7b47","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","siteId":"47ecbf37-0755-449f-b109-ea1ab19c3747"},"display":["SITE_BDSS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт площадки - БДДС - Схема",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта площадки в разделе БДДС",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"schemaFilters":{"constructionObjects":[],"periods":[]},"secondaryVersionId":"ab3b7bd3-961b-4ac6-8be8-904ea16e7b47","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","siteId":"47ecbf37-0755-449f-b109-ea1ab19c3747"},"display":["SITE_BDSS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт площадки - План продаж - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта площадки в разделе план продаж",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"periodScale":"YEAR","secondaryVersionId":"ab3b7bd3-961b-4ac6-8be8-904ea16e7b47","schemaFilters":{"constructionObjects":[],"periods":[]},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","siteId":"47ecbf37-0755-449f-b109-ea1ab19c3747"},"display":["SALES_PLAN"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт площадки - План продаж - Схема",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта площадки в разделе план продаж",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"periodScale":"YEAR","secondaryVersionId":"ab3b7bd3-961b-4ac6-8be8-904ea16e7b47","schemaFilters":{"constructionObjects":[],"periods":[]},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","siteId":"47ecbf37-0755-449f-b109-ea1ab19c3747"},"display":["SALES_PLAN"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Главная - БДР - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в разделе БДР",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","activeProjection":{"id":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45","type":"construction_object"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_BDR"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Главная - БДР - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в разделе БДР",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","activeProjection":{"id":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45","type":"construction_object"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_BDR"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Главная - Земельный участок - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице земельный участок",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","activeProjection":{"id":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45","type":"construction_object"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_PARAMETERS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Главная - Земельный участок - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице земельный участок",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","activeProjection":{"id":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45","type":"construction_object"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_PARAMETERS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Главная - Вехи - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице вехи",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","activeProjection":{"id":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45","type":"construction_object"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_MILESTONES"]}
+		},		
+		{
+			"name": "Паспорт -> Паспорт объекта - Главная - Вехи - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице вехи",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","activeProjection":{"id":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45","type":"construction_object"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_MILESTONES"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Главная - Параметры объекта строительства - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Параметры объекта строительства",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","activeProjection":{"id":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45","type":"construction_object"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_AREA"]}
+		},	
+		{
+			"name": "Паспорт -> Паспорт объекта - Главная - Параметры объекта строительства - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Параметры объекта строительства",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","activeProjection":{"id":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45","type":"construction_object"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_AREA"]}
+		},		
+		{
+			"name": "Паспорт -> Паспорт объекта - Главная - График реализации - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице График реализации",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","activeProjection":{"id":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45","type":"construction_object"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_PRODUCTION_SCHEDULE_YEAR"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Главная - График реализации - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице График реализации",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","activeProjection":{"id":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45","type":"construction_object"},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_PRODUCTION_SCHEDULE_YEAR"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Стоимость строительства - Система сбалансированных коэффициентов - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Система сбалансированных коэффициентов",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_SSK_SMR"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Стоимость строительства - Система сбалансированных коэффициентов - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Система сбалансированных коэффициентов",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_SSK_SMR"]}
+		},		
+		{
+			"name": "Паспорт -> Паспорт объекта - Стоимость строительства - Стоимость СМР - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Стоимость СМР",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"type":"ITEM","item":"po.production.construction","secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_SMR"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Стоимость строительства - Стоимость СМР - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Стоимость СМР",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"type":"ITEM","item":"po.production.construction","secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_SMR"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Стоимость строительства - Стоимость Сети и ТУ - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Стоимость Сети и ТУ",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"type":"ITEM","item":"po.production.construction","secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_INFRA_COSTS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Стоимость строительства - Стоимость Сети и ТУ - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Стоимость Сети и ТУ",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"type":"ITEM","item":"po.production.construction","secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_INFRA_COSTS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Стоимость строительства - Стоимость ПИР - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Стоимость ПИР",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"type":"ITEM","item":"po.production.construction","secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_PIR_COSTS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Стоимость строительства - Стоимость ПИР - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Стоимость ПИР",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"type":"ITEM","item":"po.production.construction","secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["OBJECT_PIR_COSTS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Средняя площадь - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Средняя площадь",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["REVENUE"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Средняя площадь - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Средняя площадь",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["REVENUE"]}
+		},		
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Средняя площадь - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Средняя площадь",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["AVG_AREA"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Средняя площадь - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Средняя площадь",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["AVG_AREA"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Распределение пакетов - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Распределение пакетов",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["PACKAGE_DISTRIBUTION"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Распределение пакетов - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Распределение пакетов",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["PACKAGE_DISTRIBUTION"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Стандартные квартиры - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Стандартные квартиры",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["STANDARD_APARTMENTS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Стандартные квартиры - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Стандартные квартиры",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["STANDARD_APARTMENTS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Особенные квартиры - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Особенные квартиры",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["SPECIAL_APARTMENTS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Особенные квартиры - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Особенные квартиры",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["SPECIAL_APARTMENTS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Коммерческие помещения - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Коммерческие помещения",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["COMMERCIAL_PREMISES"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Коммерческие помещения - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Коммерческие помещения",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["COMMERCIAL_PREMISES"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Паркинг - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Паркинг",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["PARKING"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Паркинг - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Паркинг",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["PARKING"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Кладовые - data",
+			"proxy": "false",
+			"description": "Загрузка данных паспорта объекта строительства в таблице Кладовые",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["STOREROOMS"]}
+		},
+		{
+			"name": "Паспорт -> Паспорт объекта - Ассортимент и выручка - Кладовые - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных паспорта объекта строительства в таблице Кладовые",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","constructionObjectId":"bd4c00dc-509d-4bf9-94cf-b7104e11ab45"},"display":["STOREROOMS"]}
+		},
+		{
+			"name": "Контроль рентабельности -> ОФР - Портфель - Филиалы - data",
+			"proxy": "false",
+			"description": "Загрузка данных ОФР в таблице по Филиалам",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"type":"CONTOURS","dateRange":["2024-01","2025-01"],"activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","schemaFilters":{"constructionObjects":[],"sites":[],"contours":[],"group":"69a7b8b7-346d-4984-9c2f-88d3787bd474"},"frontendCalculator":true,"itemsFilters":{"skf":true,"sga":true,"rent":true},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["FKR_OFR"]}
+		},	
+		{
+			"name": "Контроль рентабельности -> ОФР - Портфель - Филиалы - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных ОФР в таблице по Филиалам",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"type":"CONTOURS","dateRange":["2024-01","2025-01"],"activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","schemaFilters":{"constructionObjects":[],"sites":[],"contours":[],"group":"69a7b8b7-346d-4984-9c2f-88d3787bd474"},"frontendCalculator":true,"itemsFilters":{"skf":true,"sga":true,"rent":true},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["FKR_OFR"]}
+		},	
+		{
+			"name": "Контроль рентабельности -> ОФР - Портфель - Площадки - data",
+			"proxy": "false",
+			"description": "Загрузка данных ОФР в таблице по Площадкам",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"type":"SITE","dateRange":["2024-01","2025-01"],"activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","schemaFilters":{"constructionObjects":[],"sites":[],"contours":[],"group":"69a7b8b7-346d-4984-9c2f-88d3787bd474"},"frontendCalculator":true,"itemsFilters":{"skf":true,"sga":true,"rent":true},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["FKR_OFR"]}
+		},	
+		{
+			"name": "Контроль рентабельности -> ОФР - Портфель - Площадки - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных ОФР в таблице по Площадкам",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"type":"SITE","dateRange":["2024-01","2025-01"],"activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"3ec55090-66e7-4c94-b2a5-4f6418364784","schemaFilters":{"constructionObjects":[],"sites":[],"contours":[],"group":"69a7b8b7-346d-4984-9c2f-88d3787bd474"},"frontendCalculator":true,"itemsFilters":{"skf":true,"sga":true,"rent":true},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["FKR_OFR"]}
+		},
+		{
+			"name": "Контроль рентабельности -> ОФР - Площадка - Объекты - data",
+			"proxy": "false",
+			"description": "Загрузка данных ОФР в таблице по Объектам строительства",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"type":"CONSTRUCTION_OBJECT","dateRange":["2024-01","2025-01"],"activeProjection":{"id":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd","type":"project"},"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","schemaFilters":{"constructionObjects":[],"sites":[],"contours":[],"group":"69a7b8b7-346d-4984-9c2f-88d3787bd474"},"frontendCalculator":true,"itemsFilters":{"skf":true,"sga":true,"rent":true},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","projectId":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd"},"display":["FKR_OFR"]}
+		},	
+		{
+			"name": "Контроль рентабельности -> ОФР - Площадка - Объекты - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных ОФР в таблице по Объектам строительства",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"type":"CONSTRUCTION_OBJECT","dateRange":["2024-01","2025-01"],"activeProjection":{"id":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd","type":"project"},"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","schemaFilters":{"constructionObjects":[],"sites":[],"contours":[],"group":"69a7b8b7-346d-4984-9c2f-88d3787bd474"},"frontendCalculator":true,"itemsFilters":{"skf":true,"sga":true,"rent":true},"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","projectId":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd"},"display":["FKR_OFR"]}
+		},
+		{
+			"name": "Контроль рентабельности -> Коррекция - Таблица - по умолчанию - data",
+			"proxy": "false",
+			"description": "Загрузка данных Контроля рентабельности в таблице коррекций",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"activeProjection":{"id":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd","type":"project"},"dateRange":["2024-01","2025-01"],"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","type":"INDICATORS","indicators":["fa.pl.gross-margin","fa.pl.gross-margin-to-revenue"],"schemaFilters":{"constructionObjects":[],"sites":[],"contours":[],"grades":[],"categories":[]},"frontendCalculator":true,"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","projectId":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd"},"display":["FKR_CORRECTIONS_OBJECTS"]}
+		},	
+		{
+			"name": "Контроль рентабельности -> Коррекция - Таблица - по умолчанию - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных Контроля рентабельности в таблице коррекций",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"activeProjection":{"id":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd","type":"project"},"dateRange":["2024-01","2025-01"],"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","type":"INDICATORS","indicators":["fa.pl.gross-margin","fa.pl.gross-margin-to-revenue"],"schemaFilters":{"constructionObjects":[],"sites":[],"contours":[],"grades":[],"categories":[]},"frontendCalculator":true,"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","projectId":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd"},"display":["FKR_CORRECTIONS_OBJECTS"]}
+		},
+		{
+			"name": "Контроль рентабельности -> Коррекция - Summary - по умолчанию - data",
+			"proxy": "false",
+			"description": "Загрузка данных Контроля рентабельности в таблице Summary",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"dateRange":["2024-01","2025-01"],"isSummary":true,"type":"INDICATORS","indicators":["fa.pl.gross-margin","fa.pl.gross-margin-to-revenue"],"frontendCalculator":true,"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["FKR_CORRECTIONS_SUMMARY"]}
+		},	
+		{
+			"name": "Контроль рентабельности -> Коррекция - Summary - по умолчанию - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных Контроля рентабельности в таблице Summary",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"dateRange":["2024-01","2025-01"],"isSummary":true,"type":"INDICATORS","indicators":["fa.pl.gross-margin","fa.pl.gross-margin-to-revenue"],"frontendCalculator":true,"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["FKR_CORRECTIONS_SUMMARY"]}
+		},
+		{
+			"name": "Контроль рентабельности -> Коррекция - Таблица - все показатели - data",
+			"proxy": "false",
+			"description": "Загрузка данных Контроля рентабельности в таблице коррекции по всем показателям",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"activeProjection":{"id":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd","type":"project"},"dateRange":["2024-01","2025-01"],"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","type":"INDICATORS","indicators":["fa.pl.gross-margin","fa.pl.gross-margin-to-revenue","ss.sales.revenue","fa.pl.sga","ss.sales.area-total","fa.pl.sga-to-revenue","fa.pl.ebitda","fa.pl.ebitda-to-revenue","fa.ss.sales.area-total","fa.ss.sales.revenue","fa.pl.subsidies","fa.pl.prices","fa.pl.susidized-prices","fa.po.production.total","fa.pl.sales","fa.pl.revenue.dev","fa.pl.gross-margin.rent","fa.pl.sga.amortization","fa.pl.fin","fa.pl.fin-to-revenue","fa.pl.expenses","fa.pl.tax.income","fa.pl.net-profit","fa.pl.net-profit-to-revenue"],"schemaFilters":{"constructionObjects":[],"sites":[],"contours":[],"grades":[],"categories":[]},"frontendCalculator":true,"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","projectId":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd"},"display":["FKR_CORRECTIONS_OBJECTS"]}
+		},	
+		{
+			"name": "Контроль рентабельности -> Коррекция - Таблица - все показатели - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных Контроля рентабельности в таблице коррекции по всем показателям",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"activeProjection":{"id":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd","type":"project"},"dateRange":["2024-01","2025-01"],"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","type":"INDICATORS","indicators":["fa.pl.gross-margin","fa.pl.gross-margin-to-revenue","ss.sales.revenue","fa.pl.sga","ss.sales.area-total","fa.pl.sga-to-revenue","fa.pl.ebitda","fa.pl.ebitda-to-revenue","fa.ss.sales.area-total","fa.ss.sales.revenue","fa.pl.subsidies","fa.pl.prices","fa.pl.susidized-prices","fa.po.production.total","fa.pl.sales","fa.pl.revenue.dev","fa.pl.gross-margin.rent","fa.pl.sga.amortization","fa.pl.fin","fa.pl.fin-to-revenue","fa.pl.expenses","fa.pl.tax.income","fa.pl.net-profit","fa.pl.net-profit-to-revenue"],"schemaFilters":{"constructionObjects":[],"sites":[],"contours":[],"grades":[],"categories":[]},"frontendCalculator":true,"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba","projectId":"0cb7ec00-bbbb-11ea-9611-0dfb99fbd7cd"},"display":["FKR_CORRECTIONS_OBJECTS"]}
+		},
+		{
+			"name": "Контроль рентабельности -> Коррекция - Summary - все показатели - data",
+			"proxy": "false",
+			"description": "Загрузка данных Контроля рентабельности в таблице Summary по всем показателям",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"dateRange":["2024-01","2025-01"],"isSummary":true,"type":"INDICATORS","indicators":["fa.pl.gross-margin","fa.pl.gross-margin-to-revenue","ss.sales.revenue","fa.pl.sga","ss.sales.area-total","fa.pl.sga-to-revenue","fa.pl.ebitda","fa.pl.ebitda-to-revenue","fa.ss.sales.area-total","fa.ss.sales.revenue","fa.pl.subsidies","fa.pl.prices","fa.pl.susidized-prices","fa.po.production.total","fa.pl.sales","fa.pl.revenue.dev","fa.pl.gross-margin.rent","fa.pl.sga.amortization","fa.pl.fin","fa.pl.fin-to-revenue","fa.pl.expenses","fa.pl.tax.income","fa.pl.net-profit","fa.pl.net-profit-to-revenue"],"frontendCalculator":true,"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["FKR_CORRECTIONS_SUMMARY"]}
+		},	
+		{
+			"name": "Контроль рентабельности -> Коррекция - Summary - все показатели - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных Контроля рентабельности в таблице Summary по всем показателям",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"dateRange":["2024-01","2025-01"],"isSummary":true,"type":"INDICATORS","indicators":["fa.pl.gross-margin","fa.pl.gross-margin-to-revenue","ss.sales.revenue","fa.pl.sga","ss.sales.area-total","fa.pl.sga-to-revenue","fa.pl.ebitda","fa.pl.ebitda-to-revenue","fa.ss.sales.area-total","fa.ss.sales.revenue","fa.pl.subsidies","fa.pl.prices","fa.pl.susidized-prices","fa.po.production.total","fa.pl.sales","fa.pl.revenue.dev","fa.pl.gross-margin.rent","fa.pl.sga.amortization","fa.pl.fin","fa.pl.fin-to-revenue","fa.pl.expenses","fa.pl.tax.income","fa.pl.net-profit","fa.pl.net-profit-to-revenue"],"frontendCalculator":true,"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["FKR_CORRECTIONS_SUMMARY"]}
+		},
+		{
+			"name": "Стратегическое планирование -> ОФР - по годам - data (SKF, SGA и Аренда)",
+			"proxy": "false",
+			"description": "Загрузка данных Стратегического планировая в таблице по годам. SKF, SGA и Аренда - включены",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"type":"CONTOURS","activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","schemaFilters":{"contours":[],"sites":[],"constructionObjects":[]},"frontendCalculator":true,"itemsFilters":{"skf":true,"sga":true,"rent":true},"periodScale":"YEAR","dateRange":["2023-01","2044-12"],"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["PNL_STRATMODEL"]}
+		},
+		{
+			"name": "Стратегическое планирование -> ОФР - по годам - schema (SKF, SGA и Аренда)",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных Стратегического планировая в таблице по годам. SKF, SGA и Аренда - включены",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"type":"CONTOURS","activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","schemaFilters":{"contours":[],"sites":[],"constructionObjects":[]},"frontendCalculator":true,"itemsFilters":{"skf":true,"sga":true,"rent":true},"periodScale":"YEAR","dateRange":["2023-01","2044-12"],"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["PNL_STRATMODEL"]}
+		},
+		{
+			"name": "Стратегическое планирование -> ОФР - по годам - data",
+			"proxy": "false",
+			"description": "Загрузка данных Стратегического планировая в таблице по годам.",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"type":"CONTOURS","activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","schemaFilters":{"contours":[],"sites":[],"constructionObjects":[]},"frontendCalculator":true,"itemsFilters":{"skf":false,"sga":false,"rent":false},"periodScale":"YEAR","dateRange":["2023-01","2044-12"],"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["PNL_STRATMODEL"]}
+		},
+		{
+			"name": "Стратегическое планирование -> ОФР - по годам - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных Стратегического планировая в таблице по годам.",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"type":"CONTOURS","activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","schemaFilters":{"contours":[],"sites":[],"constructionObjects":[]},"frontendCalculator":true,"itemsFilters":{"skf":false,"sga":false,"rent":false},"periodScale":"YEAR","dateRange":["2023-01","2044-12"],"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["PNL_STRATMODEL"]}
+		},
+		{
+			"name": "Стратегическое планирование -> ОФР - по полугодиям - data (SKF, SGA и Аренда)",
+			"proxy": "false",
+			"description": "Загрузка данных Стратегического планировая в таблице по годам. SKF, SGA и Аренда - включены",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"type":"CONTOURS","activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","schemaFilters":{"contours":[],"sites":[],"constructionObjects":[]},"frontendCalculator":true,"itemsFilters":{"skf":true,"sga":true,"rent":true},"periodScale":"HALF_YEAR","dateRange":["2023-01","2044-12"],"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["PNL_STRATMODEL"]}
+		},
+		{
+			"name": "Стратегическое планирование -> ОФР - по полугодиям - schema (SKF, SGA и Аренда)",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных Стратегического планировая в таблице по годам. SKF, SGA и Аренда - включены",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"type":"CONTOURS","activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","schemaFilters":{"contours":[],"sites":[],"constructionObjects":[]},"frontendCalculator":true,"itemsFilters":{"skf":true,"sga":true,"rent":true},"periodScale":"HALF_YEAR","dateRange":["2023-01","2044-12"],"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["PNL_STRATMODEL"]}
+		},
+		{
+			"name": "Стратегическое планирование -> ОФР - по полугодиям - data",
+			"proxy": "false",
+			"description": "Загрузка данных Стратегического планировая в таблице по годам.",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/data",
+			"data": {"selectors":{"type":"CONTOURS","activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","schemaFilters":{"contours":[],"sites":[],"constructionObjects":[]},"frontendCalculator":true,"itemsFilters":{"skf":false,"sga":false,"rent":false},"periodScale":"HALF_YEAR","dateRange":["2023-01","2044-12"],"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["PNL_STRATMODEL"]}
+		},
+		{
+			"name": "Стратегическое планирование -> ОФР - по полугодиям - schema",
+			"proxy": "false",
+			"description": "Загрузка схемы отображения данных Стратегического планировая в таблице по годам.",
+			"Auth": "cookie",
+			"metod": {"post":201},
+			"url": "https://scheduler.brusnika.ru/backend/display/schema",
+			"data": {"selectors":{"type":"CONTOURS","activeProjection":{"id":"root","type":"company"},"secondaryVersionId":"fd954f61-6749-42a8-9d5f-3d99a0e094e3","schemaFilters":{"contours":[],"sites":[],"constructionObjects":[]},"frontendCalculator":true,"itemsFilters":{"skf":false,"sga":false,"rent":false},"periodScale":"HALF_YEAR","dateRange":["2023-01","2044-12"],"versionId":"1ce7fe21-956f-4627-b1aa-cbfc2d6358ba"},"display":["PNL_STRATMODEL"]}
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+{
+	//Auth - авторизационная секция
+	"Auth":{
+	//токен авторизации в Монитор процессов
+	"Token_monitor": "XXXXXXXXXXXXXXX",
+	//токен авторизации в процесную систему
+	"Token_proc": "XXXXXXXXXXXXXXX",
+	//Cookie в планировщик
+	"Cookie": "AUTH_ACS=XXXXXXXXXXXXXXX; AUTH_RFR=YYYYYYYYYYY; AUTH_ID=ZZZZZZZZZZZ; AUTH_INT=WWWWWWWWWWWW"
+	},
+	//link - коллекция запросов
+	"link":[
+		{
+			"name": "строка", //строка
+			"proxy": "true/false", //использование прокси
+			"description": "строка", //описание в Allure
+			"Auth": "строка", //токен авторизации
+			"metod": {}, //метод и код ответа
+			"url": "строка", //ссылка
+			"data": {} //передаваемые данные, при GET-запросе необязательно
+		}	
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
